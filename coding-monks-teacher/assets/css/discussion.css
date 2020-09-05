@@ -1,0 +1,145 @@
+body {
+    background-color: #f1f3f8;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #07689f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Lato", sans-serif;
+  }
+  
+.nav {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #07689f;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .nav:hover, .nav:active, .nav:visited, .nav:focus {
+    text-decoration-line: none;
+  }
+
+  .nav:hover{
+    color: #043857;
+
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .closebtn{
+      color: #f1f3f8;
+  }
+
+  .closebtn:hover, .closebtn:active, .closebtn:visited, .closebtn:focus{
+      color: #f1f3f8;
+      text-decoration-line: none;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .menu{
+      margin-left: 1%;
+  }
+
+.nav{
+    background-color:#f1f3f8;
+    height: 8.5%;
+    margin: 0 3% 2% -10%;
+    border-radius: 25px;
+}
+
+h1{    
+    font-family: 'Fjord One';
+    font-size: 40px;
+    color: #07689f;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.accordion-item{
+    background-color: #f1f3f8;
+    color: black;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  
+  .accordion-item-header {
+    padding: 1.5rem 3rem 1.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6em;
+  }
+  
+  .accordion-item-header::after{
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .accordion-item-header.active::after{
+    content: "\2212";
+  }
+  
+  .active{
+  text-decoration: none;
+  }
+  
+  .accordion-item-body{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .accordion-item-body-content{
+    padding: 1rem;
+    line-height: 2rem;
+    border-top: 1px solid #212121;
+    font-size: 1.4em;
+  }
+
+  .asked-accordion {
+      width: 77%;
+      margin-left: 11.5%;
+      margin-top: 10%;
+      font-family: 'Fjord One';
+  }
+
+  .accordion-item-body-content input {
+      width: 100%;
+  }
+
+  .answer{
+      width: 100%;
+      border: none;
+      background-color: #07689f;
+      color: #f1f3f8;
+      padding: 0.5%;
+      margin-top: 1%;
+  }

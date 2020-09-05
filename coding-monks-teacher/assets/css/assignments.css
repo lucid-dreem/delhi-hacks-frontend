@@ -1,0 +1,168 @@
+body {
+    background-color: #f1f3f8;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #07689f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Lato", sans-serif;
+  }
+  
+.nav {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #07689f;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .nav:hover, .nav:active, .nav:visited, .nav:focus {
+    text-decoration-line: none;
+  }
+
+  .nav:hover{
+    color: #043857;
+
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .closebtn{
+      color: #f1f3f8;
+  }
+
+  .closebtn:hover, .closebtn:active, .closebtn:visited, .closebtn:focus{
+      color: #f1f3f8;
+      text-decoration-line: none;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .menu{
+      margin-left: 1%;
+  }
+
+.nav{
+    background-color:#f1f3f8;
+    height: 8.5%;
+    margin: 0 3% 2% -10%;
+    border-radius: 25px;
+}
+
+h1{    
+    font-family: 'Fjord One';
+    font-size: 40px;
+    color: #07689f;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.container-task{
+    height: 150px;
+    background: #d6d6d6;
+    width: 75%;
+    position: relative;
+    top: 150px;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    font-family: 'Fjord One';
+    border-radius: 15px;
+}
+
+.task-name{
+    font-size: 25px;
+}
+
+.details{
+    font-size: 20px;
+}
+
+.due-date{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
+.upload{
+    text-align: right;
+    color: #f1f3f8
+}
+
+.upload button{
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: #07689f;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+}
+
+.col-sm-6{
+    margin-top: 1%;
+}
+
+ul {
+    list-style: none;
+}
+
+.new-assign{
+    height: 150px;
+    background: #d6d6d6;
+    width: 75%;
+    position: relative;
+    top: 150px;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    font-family: 'Fjord One';
+    border-radius: 15px;
+}
+
+.name{
+    font-size: 25px;
+    width: 502px;
+}
+
+.instructions{
+    margin-top: 4%;
+}
+
+.due-assign{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    margin-left: 45%;
+}
+
+.assign-task{
+    text-align: right;
+    color: #f1f3f8
+}
+
+.assign-task button{
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: #07689f;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
