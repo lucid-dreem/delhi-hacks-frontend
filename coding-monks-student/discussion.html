@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="assets/css/discussion.css" type="text/css"  rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjord One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'><body>
+    <section class = "header">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html" class = "nav">Home</a>
+        <a href="class.html" class = "nav">Class</a>
+        <a href="#" class = "nav">Attendance</a>
+        <a href="assignments.html" class = "nav">Assignments</a>
+        <a href="elibrary.html" class = "nav">E-Library</a>
+        <a href="discussion.html" class = "nav">Discussion</a>
+        <a href="#" class = "nav">About</a>
+        <a href="contact.html" class = "nav">Contact</a>
+      </div>
+    
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class = "menu">&#9776;</span>
+    </section>      
+
+    <section class="content">
+        <h1>Discussion</h1>
+        <div class='question-container'>
+          <input type="text" placeholder="Ask a question">
+        </div>
+        <button class = "ask">Ask</button>
+        <section class = "asked-accordion">
+          <div class = "accordion-item">
+            <div class = "accordion-item-header">
+              What is an orbital?
+            </div>
+            <div class = "accordion-item-body">
+              <p class = "accordion-item-body-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet, mi vitae scelerisque semper, dolor nunc tempus elit, semper euismod turpis dui non purus. Curabitur mollis egestas cursus.
+              </p>
+            </div>
+          </div>
+          <div class = "accordion-item">
+            <div class = "accordion-item-header">
+              What is the electron configuration of Chromium?
+            </div>
+            <div class = "accordion-item-body">
+              <p class = "accordion-item-body-content">
+                <input type="text" placeholder="Answer the question">
+                <button class = "answer">Answer</button>
+              </p>
+            </div>
+          </div>
+        </section>
+    </section>
+    <script src="assets/js/sidenav.js"></script> 
+    <script src="assets/js/discussion.js"></script> 
+  </body>
+</html>
