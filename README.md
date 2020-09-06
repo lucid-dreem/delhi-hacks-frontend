@@ -1,4 +1,4 @@
-# delhi-hacks-frontend
+# Delhi Hacks Frontend
 
 Frontend student and teacher panels for a smart class manager
 
